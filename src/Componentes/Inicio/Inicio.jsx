@@ -44,12 +44,8 @@ const Inicio = () => {
 
       {/* Contenido principal */}
       <div className="main-content">
-        <motion.h1
-=======
         <ChatMessages />
-
-        <motion.h1 
->>>>
+        <motion.h1
           className="welcome-title"
           initial={{ opacity: 0, y: -40 }}
           animate={{ opacity: 1, y: 0 }}
