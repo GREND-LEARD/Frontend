@@ -1,0 +1,114 @@
+.player-panel {
+  max-width: 600px;
+  width: 90%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+}
+
+.menu-bar {
+  background-color: #4CAF50;
+  padding: 15px 20px;
+  color: white;
+  font-weight: bold;
+  text-align: right;
+  font-size: 16px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.player-info {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.player-photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #4CAF50;
+  margin-bottom: 10px;
+}
+
+.player-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.scores-section {
+  margin: 20px 0;
+}
+
+.scores-section h3 {
+  color: #4CAF50;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.scores {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.score {
+  text-align: center;
+  font-size: 14px;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  background-color: #4CAF50;
+  border-radius: 50%;
+  margin: 0 auto 5px auto;
+}
+
+.favorite-section {
+  margin: 20px 0 10px 0;
+  text-align: center;
+}
+
+.favorite-section h3 {
+  color: #4CAF50;
+  margin-bottom: 10px;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.star {
+  font-size: 28px;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.star.active {
+  color: #4CAF50;
+}
+
+.footer {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px;
+  font-size: 14px;
+}
